@@ -173,7 +173,7 @@ a:hover{text-decoration:none}
 }
 
 .header-main__logo img {
-  max-height: 80px;
+  max-height: 110px;
   width: auto;
   transition: all 0.3s ease;
 }
@@ -265,6 +265,21 @@ a:hover{text-decoration:none}
   .header-main__info {
     flex-direction: column;
     gap: 8px;
+    align-items: center;
+  }
+  .header-main__info span {
+    display: inline-block;
+    text-align: center;
+  }
+  .header-main__info span i {
+    margin-right: 5px;
+  }
+  .header-main__hotline {
+    display: inline-block;
+    text-align: center;
+  }
+  .header-main__hotline i {
+    margin-right: 5px;
   }
 }
 
@@ -276,7 +291,7 @@ a:hover{text-decoration:none}
     justify-content: center;
   }
   .header-main__logo img {
-    max-height: 60px;
+    max-height: 85px;
   }
 }
 #footer-map,#footer-map iframe{overflow:hidden;width:100%;height:450px;}
@@ -655,11 +670,14 @@ div.box-tim-nc .item-nc:nth-child(5n){margin-right:0}
 .lhvct form button{width:111px;height:35px;border:0!important;border-radius:0!important;background:var(--scolor);color:#fff;font-weight:bold;text-transform:uppercase;}
 .lhvct form button[type=reset]{background:var(--main-color);}
 .bg{padding:48px 0px;background-color:var(--main-color);}
-.bg ul li a{display:grid;background:#fff;overflow:hidden;border-radius:10px;padding:13px;grid-template-columns:auto 1fr;grid-gap:20px;min-height:102px;align-items:center;}
+.bg ul li a{display:grid;background:#fff;overflow:hidden;border-radius:10px;padding:13px;grid-template-columns:auto 1fr;grid-gap:20px;min-height:102px;align-items:center;transition:all 0.3s ease;border: 1px solid transparent;}
 .bg ul li a h3{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-size:17px;font-weight:500;text-transform:uppercase;color:var(--main-color);margin-bottom:5px;transition:0.2s;}
 .bg ul li a p{margin:0;color:#444444;overflow:hidden;text-overflow:ellipsis;line-height:21px;-webkit-line-clamp:2;height:42px;display:-webkit-box;-webkit-box-orient:vertical;}
 .bg ul li a section{min-width:100%;}
 .bg ul li a:hover h3{color:var(--scolor);}
+.bg ul li a:hover{transform:translateY(-8px);box-shadow:0 12px 25px rgba(0,0,0,0.2);border-color:var(--main-color);}
+.bg ul li a img{transition:all 0.4s ease;}
+.bg ul li a:hover img{transform:scale(1.1);}
 .vct{padding:80px 0px;}
 .vctf{display:grid;grid-template-columns:auto 653px;align-items:center;}
 .vctfl{min-width:100%;}
