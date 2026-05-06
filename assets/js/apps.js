@@ -948,7 +948,7 @@ $(document).ready(function(){
     NN_FRAMEWORK.Popup();
     NN_FRAMEWORK.WowAnimation();
     NN_FRAMEWORK.AltImages();
-    NN_FRAMEWORK.BackToTop();
+    // NN_FRAMEWORK.BackToTop();
     NN_FRAMEWORK.FixMenu();
     NN_FRAMEWORK.Mmenu();
     NN_FRAMEWORK.OwlPage();
