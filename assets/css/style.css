@@ -225,8 +225,8 @@ coccocgrammar{display:none}
 .btn-frame .animated{animation-duration:1s;animation-fill-mode:both}
 .btn-frame .kenit-alo-circle-fill{width:70px;height:70px;top:-10px;right:-10px;position:absolute;-webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-in-out;-ms-transition:all 0.2s ease-in-out;-o-transition:all 0.2s ease-in-out;transition:all 0.2s ease-in-out;-webkit-border-radius:100%;-moz-border-radius:100%;border-radius:100%;border:2px solid transparent;-webkit-transition:all .5s;-moz-transition:all .5s;-o-transition:all .5s;transition:all .5s;background-color:var(--main-color);opacity:.4;}
 .btn-frame .pulse{animation-name:pulse}
-.btn-zalo{bottom:315px}
-.btn-phone{bottom:230px}
+.btn-zalo{bottom:90px}
+.btn-phone{bottom:20px}
 .js-facebook-messenger-container.closed,.js-facebook-messenger-tooltip.closed{display:none!important}
 .js-facebook-messenger-tooltip{bottom:97px;right:97px}
 .js-facebook-messenger-tooltip{color:#404040;background:#fff}
@@ -343,4 +343,17 @@ coccocgrammar{display:none}
 	.cart-pro-detail a{width:100%;text-align:center;margin:0px!important;font-size:12px}
 	.cart-pro-detail a:first-child{margin-bottom:5px!important}
 	.cart-pro-detail a i{display:none}
+}
+
+/* Fix image size uniform */
+.blog-item-thumbnail .img1 {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4/3;
+    overflow: hidden;
+}
+.blog-item-thumbnail .img1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
